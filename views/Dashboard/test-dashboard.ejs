@@ -1,0 +1,149 @@
+<!doctype html>
+<%- contentFor('HeaderCss') %>
+
+<%- contentFor('breadcrumb') %>
+
+<%- contentFor('body') %>
+
+    <div class="row">
+        <div class="col-md-1">
+            <img class="rounded mr-2" alt="700x700" width= "100" src="public/assets/images/logoCLC_Re.png" data-holder-rendered="true">
+        </div>
+        <div class="col-md-11">
+            <h4 class="card-title">Bienvenido al Centro de Servicios de Clínica Las Condes</h4>
+            <p class="card-title-desc">Desde esta plataforma usted podrá registrar solicitudes y reportar incidencia al equipo de servicios de Ignite, y revisar el estado de las mismas.</p>
+            <div class="text-center mt-4">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="col-md-6">
+                        <img class="rounded mr-2" alt="200x200" width="560" src="public/assets/images/microsoftEndPoint.png" data-holder-rendered="true">
+                    </div>
+                    <p></p>
+                    <h4 class="card-title">Microsoft Endpoint Manager</h4>
+                    <p class="card-title-desc">Configuration Manager / Intune / Desktop Analytics / Autopilot </p>
+                    
+                  <form id="microsoft-endpoint-manager-products" method="get" action="mem-products">                                
+                    <div class="button-items">
+                        <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('microsoft-endpoint-manager-products').submit()">Crear Ticket</button>
+                    </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+       <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="col-md-6">
+                        <img class="rounded mr-2" alt="200x200" width="560" src="public/assets/images/microsoftOffice365_Re.png" data-holder-rendered="true">
+                    </div>
+                    <p></p>
+                    <h4 class="card-title">Office 365</h4>
+                    <p class="card-title-desc">Exchange Online / SharePoint Online / OneDrive for Business / Microsoft Teams</p>
+                  <form id="option-form-O365" method="post" action="form-test">
+                    <input type="hidden" name="_typeTicket" value="Office 365">
+
+
+                      <div class="button-items">
+                        <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-O365').submit()">Crear Ticket</button>
+                      </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="col-md-6">
+                        <img class="rounded mr-2" alt="200x200" width="560" src="public/assets/images/microsoftAzure_Re.png" data-holder-rendered="true">
+                    </div>
+                    <p></p>
+                    <h4 class="card-title">Microsoft Azure</h4>
+                    <p class="card-title-desc">Cloud Platform</p>
+
+
+                    <div class="button-items">
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Crear Ticket</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="col-md-6">
+                        <img class="rounded mr-2" alt="200x200" width="560" src="public/assets/images/microsoftPowerBI_Re.png" data-holder-rendered="true">
+                    </div>
+                    <p></p>
+                    <h4 class="card-title">Data Analytics</h4>
+                    <p class="card-title-desc">Power BI / ETLs / Data Lake / Data Mart / Data Warehouse / Integraciones </p>
+
+
+                    <div class="button-items">
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Crear Ticket</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="col-md-6">
+                        <img class="rounded mr-2" alt="550x200" width="550" src="public/assets/images/incidenciaGenerica_Re.png" data-holder-rendered="true">
+                    </div>
+                    <p></p>
+                    <h4 class="card-title">Incidencia Genérica</h4>
+                    <p class="card-title-desc">Otro tipo de incidencia no relacionada a categorías anteriores</p>
+
+
+                    <div class="button-items">
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Crear Ticket</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="col-md-6">
+                        <img class="rounded mr-2" alt="550x200" width="550" src="public/assets/images/requerimientoGenerico_Re.png" data-holder-rendered="true">
+                    </div>
+                    <p></p>
+                    <h4 class="card-title">Requerimiento Genérico</h4>
+                    <p class="card-title-desc">Otro tipo de requerimiento no relacionado a categorías anteriores</p>
+
+
+                    <div class="button-items">
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Crear Ticket</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  
+
+<%- contentFor('FooterJs') %>
+
+<%- contentFor('BottomJs') %>

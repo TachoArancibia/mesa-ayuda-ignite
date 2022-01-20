@@ -1,0 +1,234 @@
+<!doctype html>
+<%- contentFor('HeaderCss') %>
+
+<%- contentFor('breadcrumb') %>
+
+<%- contentFor('body') %>
+
+    <div class="row">
+        <div class="col-md-1">
+            <img class="rounded mr-2" alt="700x700" width= "100" src="public/assets/images/logoCLC_Re.png" data-holder-rendered="true">
+        </div>
+        <div class="col-md-11">
+            <h4 class="card-title">Bienvenido al Centro de Servicios de Clínica Las Condes</h4>
+            <p class="card-title-desc">Desde esta plataforma usted podrá registrar solicitudes y reportar incidencia al equipo de servicios de Ignite, y revisar el estado de las mismas.</p>
+            <div class="text-center mt-4">
+        </div>
+
+    </div>
+<!--Instalación o Desinstalación de Agente de SCCM-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+
+                  <h4 class="card-title">Instalación o Desinstalación de Agente de SCCM</h4>
+                  <p class="card-title-desc">Solicite la instalación o desintalación del agente de SCCM para un equipo específico del dominio</p>
+                  <div>
+                    <form id="option-form-MEM-1" method="post" action="form-test">
+                      <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                      <input type="hidden" name="_subProductTicket" value="Instalación o Desinstalación de Agente de SCCM"></input>
+                      <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-1').submit()">Crear Ticket</button>
+                    </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Instalación de Consola de SCCM-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Instalación de Consola de SCCM</h4>
+            <p class="card-title-desc">Solicite instalar la consola de SCCM en diversos equipos de su compañía</p>
+            <div>
+              <form id="option-form-MEM-2" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Instalación de Consola de SCCM"></input>
+                  <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-2').submit()">Crear Ticket</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Permisos de Cuentas en Consola de SCCM-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Permisos de Cuentas en Consola de SCCM</h4>
+            <p class="card-title-desc">Solicite permisos especiales para la consola de SCCM</p>
+            <div>
+              <form id="option-form-MEM-3" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Permisos de Cuentas en Consola de SCCM"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-3').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Despliegue de Software-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Despliegue de Software</h4>
+            <p class="card-title-desc">Solicite el despliegue de un aplicativo .exe o .msi</p>
+            <div>
+              <form id="option-form-MEM-4" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Despliegue de Software"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-4').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!--Despliegue de Actualizaciones-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Despliegue de Actualizaciones</h4>
+            <p class="card-title-desc">Solicite un despliegue de actualizaciones para las estaciones de trabajo de su compañía mediante SCCM</p>
+            <div>
+              <form id="option-form-MEM-5" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Despliegue de Actualizaciones"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-5').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Estados de Despliegues-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Estados de Despliegues</h4>
+            <p class="card-title-desc">Solicite un estado de un despliegue gestionado con anterioridad</p>
+            <div>
+              <form id="option-form-MEM-6" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Estados de Despliegues"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-6').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!--Creación de Reportes-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Creación de Reportes</h4>
+            <p class="card-title-desc">Solicite un reporte personalizado de SCCM</p>
+            <div>
+              <form id="option-form-MEM-7" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Creación de Reportes"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-7').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--Reinicio / Apagado Masivo-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Reinicio / Apagado Masivo</h4>
+            <p class="card-title-desc">Solicite un reinicio o apagado masivo o acotado de las estaciones de trabajo de su compañía</p>
+            <div>
+              <form id="option-form-MEM-8" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Reinicio / Apagado Masivo"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-8').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <!--Configuración de Opciones de Energía-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Configuración de Opciones de Energía</h4>
+            <p class="card-title-desc">Solicite una configuración especial para su estación de trabajo</p>
+            <div>
+              <form id="option-form-MEM-9" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Configuración de Opciones de Energía"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-8').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+<!--Solicitud Especial de SCCM-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Solicitud Especial de SCCM</h4>
+            <p class="card-title-desc">Solicite un requerimiento especial que no esté listado dentro de las demás opciones</p>
+            <div>
+              <form id="option-form-MEM-10" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Solicitud Especial de SCCM"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-10').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+<!--Reporte un incidente-->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h4 class="card-title">Reporte un incidente</h4>
+            <p class="card-title-desc">Reporte un incidente de la plataforma de SCCM</p>
+            <div>
+              <form id="option-form-MEM-11" method="post" action="form-test">
+                <input type="hidden" name="_typeTicket" value="Microsoft Endpoint Manager"></input>
+                <input type="hidden" name="_subProductTicket" value="Reporte un incidente"></input>
+                <button type="button" class="btn btn-primary waves-effect waves-light" onClick="document.getElementById('option-form-MEM-11').submit()">Crear Ticket</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+<%- contentFor('FooterJs') %>
+
+<%- contentFor('BottomJs') %>
