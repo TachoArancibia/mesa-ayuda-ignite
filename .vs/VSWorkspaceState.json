@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\controllers",
-    "\\routers",
-    "\\views",
-    "\\views\\Products"
+    "\\views\\Reportes"
   ],
-  "SelectedNode": "\\routers\\route.js",
+  "SelectedNode": "\\routers",
   "PreviewInSolutionExplorer": false
 }
