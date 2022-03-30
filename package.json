@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@angular/core": "^13.3.0",
+    "@azure/msal-browser": "^2.21.0",
+    "@azure/msal-node": "^1.7.0",
     "assert": "^2.0.0",
     "axios": "^0.21.4",
     "axios-mock-adapter": "^1.19.0",

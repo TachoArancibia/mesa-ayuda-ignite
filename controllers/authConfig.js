@@ -1,4 +1,4 @@
-const msalConfig = {
+const config = {
     auth: {
         clientId: "d58dbe18-0432-4757-bc6f-7fd4cf9e1d99",
         authority: "https://login.microsoftonline.com/253861ec-a123-4b78-b200-9c73c3a2bf21/",
@@ -7,6 +7,15 @@ const msalConfig = {
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
         storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
+    },
+    system: {
+        loggerOptions: {
+            loggerCallback(loglevel, message, containsPii) {
+                console.log(message);
+            },
+            piiLoggingEnabled: false,
+            logLevel: msal.LogLevel.Verbose,
+        }
     }
 };
 

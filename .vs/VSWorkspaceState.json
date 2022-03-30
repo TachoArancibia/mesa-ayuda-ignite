@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\views\\Reportes"
+    "\\controllers",
+    "\\routers",
+    "\\views",
+    "\\views\\Auth",
+    "\\views\\Contact"
   ],
-  "SelectedNode": "\\routers",
+  "SelectedNode": "\\controllers\\AuthController.js",
   "PreviewInSolutionExplorer": false
 }
