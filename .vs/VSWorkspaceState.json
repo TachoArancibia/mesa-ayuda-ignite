@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\controllers",
-    "\\routers",
     "\\views",
     "\\views\\Auth",
-    "\\views\\Contact"
+    "\\views\\Dashboard",
+    "\\views\\Form"
   ],
-  "SelectedNode": "\\controllers\\AuthController.js",
+  "SelectedNode": "\\views\\Dashboard\\test-dashboard.ejs",
   "PreviewInSolutionExplorer": false
 }

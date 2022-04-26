@@ -150,7 +150,13 @@ module.exports = function (app) {
 
 			cca.acquireTokenByCode(tokenRequest).then((response) => {
 				console.log("\nResponse: \n:", response);
-				res.sendStatus(200);
+				//res.sendStatus(200);
+				sess = req.session;
+				sess.user = response;
+				console.log(response);
+
+				res.redirect('/');
+
 			}).catch((error) => {
 				console.log(error);
 				res.status(500).send(error);
